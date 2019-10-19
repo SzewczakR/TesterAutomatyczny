@@ -5,7 +5,7 @@ public class Zadanie1 {
     public static void main(String[] args) {
 
         Samochod autko = FabrykaSamochodow.getSamochod(220);
-        autko.getClass();
+        System.out.println("TTTTTTT");
         System.out.println(autko.getClass());
         System.out.println(autko.maxPredkosc());
 
